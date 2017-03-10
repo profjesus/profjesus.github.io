@@ -1,0 +1,21 @@
+img {
+image:center;
+}
+
+navbar-band {
+  font-size:16pt;
+  color:black;
+}
+ p{
+   font-size: 20px;
+   font-family: cursive;
+ }
+
+h1 {
+  font-size: 40px;
+ font-family: cursive;
+}
+
+.imagenpeq {
+  text-align: center;
+}

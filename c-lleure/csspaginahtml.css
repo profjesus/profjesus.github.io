@@ -1,0 +1,18 @@
+body {
+    background-image: url('http://www.microcementosindalo.es/imagenes/blanco%20roto.jpg'); 
+}
+
+h1 {
+ color: white;
+ text-aling: center;
+}
+h2 {
+ color: green;
+text-aling: center;
+}
+h3 {
+  color: purple;
+  text-aling: center;
+}
+h4 {
+  color: blue;

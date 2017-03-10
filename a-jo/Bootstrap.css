@@ -1,0 +1,20 @@
+ img {
+image:center;
+}
+
+navbar-band {
+  font-size:16pt;
+  color:black;
+}
+ p{
+   font-size: 20px;
+   font-style: italic;
+ }
+
+h1 {
+  font-size: 40px;
+}
+body{
+  border: 15px solid blue;
+  column-gap:10px;
+}

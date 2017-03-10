@@ -1,0 +1,27 @@
+img {
+image:center;
+}
+
+navbar-band {
+  font-size:16pt;
+  color:black;
+}
+ p{
+   font-size: 30px;
+   font-family: cursive;
+ }
+
+h1 {
+  font-size: 40px;
+  font-family: cursive;
+  color: red
+}
+body {
+  border: 15px solid blue;
+  background-color: lightblue;
+  color
+}
+
+a {
+font-size: 23px;
+ }

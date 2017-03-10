@@ -1,0 +1,56 @@
+h2 {
+  text-align: center;
+  color: grey;
+}
+
+.texto{
+   font-weight: bold;
+}
+
+.importante{
+   color: blue;
+}
+
+p {
+  font-size: 14pt;
+}
+body {
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+  background-color: lightpink;
+}
+
+h1 {
+	font-size: 32px;
+  font-family: Palatino, 'Palatino Linotype', serif;
+  color: rgb(121,149,117);
+}
+
+h2 {
+	font-size: 56px;
+}
+
+
+.hero {
+	padding: 250px 0;
+	margin: 30px;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  background-image: url("https://s-media-cache-ak0.pinimg.com/736x/76/de/09/76de097b9088ce390c7355e56560f72a.jpg");
+  background-size: cover;
+  color: #ffffff;
+}
+
+
+p {
+  font-size: 2rem;
+}
+
+.hero a {
+	color: #00FFAA;
+	font-size: 1.25em;
+	text-decoration: none;
+}
+#footer { font-size: 0.75rem;
+}

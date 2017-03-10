@@ -1,0 +1,86 @@
+body {
+	height: 50%;
+	margin: 6%;
+	text-align: center;
+	width: 50%;
+	background-color: #E9D8A5;
+	color: red;
+	font-family: Cooper Black;
+
+}
+
+head {
+text-align: center;
+font-family: cursive;;
+font-size: 40px;
+
+}
+
+h2{
+	/*height: 20%;*/
+	/*margin: 5%;*/
+	text-align: left;
+	width: 20%;
+	background-color: #E9D8A5;
+	color: black;
+	font-family: Rockwell Extra Bold;
+}
+
+h3{
+	/*height: 20%;*/
+	/*margin: 6%;*/
+	text-align: left;
+	width: 100%;
+	background-color: #E9D8A5;
+	color: black;
+	font-size: 20px;
+	font-family: Rockwell Extra Bold;
+
+}
+
+p{
+	/*height: 20%;*/
+	/*margin: 6%;*/
+	text-align: left;
+	width: 110%;
+	background-color: #E9D8A5;
+	color: black;
+	font-size: 20px;
+	font-family: Rockwell Extra Bold;
+
+}
+
+h5{
+
+	/*height: 30%;*/
+	/*margin: 6%;*/
+	text-align: left;
+	width: 110%;
+	background-color: #E9D8A5;
+	color: black;
+	font-size: 20px;
+	font-family: Rockwell Extra Bold;
+
+}
+
+h6{
+text-align: center;
+font-size: 25px;
+font-family: Rockwell Extra Bold;
+
+}
+
+h7{
+font-size: 20px;
+font-family: Rockwell Extra Bold;
+color: blue;
+
+}
+
+
+footer{
+text-align: center;
+font-size: 16px;
+color: black;
+
+}

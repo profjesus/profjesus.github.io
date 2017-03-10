@@ -1,0 +1,21 @@
+.titulo-pagina {
+  font-size: 50;
+  font-weight: bold;
+  text-align: center;
+}
+
+.titulo-seccion {
+  font-size: 30;
+  color: red;
+  text-align: center;
+}
+.texto-seccion {
+  font-size: 30;
+  color: red;
+  text-align: center;
+}
+.text-seccio {
+  font-size: 15;
+  color: black;
+  text-align: center;
+}

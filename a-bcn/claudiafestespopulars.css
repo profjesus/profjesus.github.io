@@ -1,0 +1,24 @@
+img {
+image:center;
+}
+
+navbar-band {
+  font-size:16pt;
+  color:black;
+}
+ p{
+   font-size: 25px;
+   font-family: cursive;
+ }
+
+h2 {
+  font-size: 40px;
+  font-family: fantasy;;
+}
+body {
+  border: 15px solid red;
+  background-color: orange;
+}
+a {
+font-size: 23px;
+ }

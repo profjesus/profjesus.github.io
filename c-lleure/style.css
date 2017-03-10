@@ -1,0 +1,15 @@
+.separador {
+  width: inherit;
+  height: 20px;
+  background-color: white;
+}
+
+.vertical {
+  width: 20px;
+  height: inherit;
+  background-color: white;
+}
+
+.textoconmargen {
+  margin: 30px 0;
+}
