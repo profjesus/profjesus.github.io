@@ -1,0 +1,39 @@
+  h1 {
+  text-align: center;
+  color: red;
+  font-size: 40pt;
+}
+
+.capital {
+  font-size: 60pt;
+}
+
+.navbar-brand {
+  font-size: 20pt;
+  color: black;
+  font-weight: bold;
+}
+
+.nav li {
+  font-size: 12pt;
+}
+p {
+  text-align: left;
+  font-size: 16pt;
+  color: #0A0A2A;
+}
+
+.imagengrande {
+  padding: 50px 0px;
+}
+
+.tituloseccion {
+  text-align: center;
+  color: #4C0B5F;
+  font-size: 20pt;
+  font-weight: bold;
+}
+.titulitos {
+  font-weight: bold;
+  font-size: 9pt;
+}
