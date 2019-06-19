@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Xogo</title>
+    <link rel="stylesheet" href="xogo.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+</head>
+
+<body>
+    <div class="crono">
+        <span id="cronometro">0:00</span>
+        <i class="fas fa-stopwatch"></i>
+    </div>
+    <div id="benvida">
+        <div>
+            BENVIDO!
+        </div>
+        <div class="boton" onclick="empezar()">
+            Comezar
+        </div>
+    </div>
+    <div id="fin">
+        NORABOA!
+        Completaches o xogo en
+        <div id="puntuacion">3 segundos</div>
+        <div class="boton">Volver a xogar</div>
+    </div>
+    <script>
+        var total = 7
+        var tempo = 0
+        var proximo = 1; // Variable que contén o número que hai que clickar
+        var crono
+
+        function empezar() {
+            crono = setInterval(actualizaCrono, 1000)
+            for (var numero = total; numero >= 1; numero = numero - 1) {
+                creaCirculo(numero)
+            }
+            var divBenvida = document.getElementById("benvida")
+            divBenvida.style.display = "none"
+        }
+
+        function actualizaCrono() {
+            tempo = tempo + 1
+            var divCrono = document.getElementById("cronometro")
+            var minutos = Math.floor(tempo / 60)
+            var segundos = tempo % 60
+            if (segundos < 10) {
+                segundos = "0" + segundos
+            }
+            divCrono.textContent = minutos + ":" + segundos;
+        }
+
+        // Crear un circulo
+        function creaCirculo(numCirculo) {
+            var circulo = document.createElement("div")
+            circulo.setAttribute("class", "circulo")
+            var color = "hsl(" + Math.floor(Math.random() * 360) + "," + (Math.floor(Math.random() * 70) + 30) + "%," + (Math.floor(Math.random() * 50) + 25) + "%)"
+            circulo.style.backgroundColor = color
+            document.body.appendChild(circulo)
+            var ancho = document.documentElement.clientWidth - circulo.offsetWidth;
+            var alto = document.documentElement.clientHeight - circulo.offsetHeight;
+            circulo.style.left = Math.floor(Math.random() * ancho) + "px"
+            circulo.style.top = Math.floor(Math.random() * alto) + "px"
+            circulo.textContent = numCirculo
+            circulo.onclick = function () {
+                if (numCirculo == proximo) {
+                    circulo.style.top = "-200px"
+                    proximo = proximo + 1
+                    if (numCirculo == total) {
+                        clearInterval(crono) // Para a actualización do crono
+                    }
+                }
+
+            }
+        }
+    </script>
+</body>
+
+</html>
